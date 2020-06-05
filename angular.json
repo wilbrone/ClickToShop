@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/custom-theme.scss",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "clickToShop"
+    }
+  },
+  "defaultProject": "clickToShop",
+  "cli": {
+    "analytics": "6fd89c7e-2a86-410f-8fda-0495eebf993c"
+  }
 }
