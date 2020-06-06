@@ -9,7 +9,7 @@
               <h2>The WW Chair</h2>
             </div>
 
-            <div style="height:30%;margin-top:0.7em;padding-top:0.4em;">
+            <div class="dec" style="height:30%;margin-top:0.7em;padding-top:0.4em;">
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
             </div>
 
@@ -22,18 +22,18 @@
 
       <div class="carousel-item" style="height:100%;">
         <div class="one" style="height:100%;">
-          <mat-card class="example-card insert-remove-container" @myInsertRemoveTrigger *ngIf="isSeen">
+          <mat-card class="example-card insert-remove-container" @myInsertRemoveTrigger *ngIf="isShown">
             <div style="height:25%;margin-top:1.7em;">
               <p>$540</p>
               <h2>The WW Chair</h2>
             </div>
 
-            <div style="height:30%;margin-top:0.7em;padding-top:0.4em;">
+            <div class="dec" style="height:30%;margin-top:0.7em;padding-top:0.4em;">
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
             </div>
 
             <div style="height:20%;margin-top:2em;">
-              <button mat-stroked-button color="warn" style="font-size: 18px;height:100%;width:50%;border:solid brown;">Purchase Now</button>
+              <button mat-stroked-button color="warn" style="font-size:1rem;height:100%;width:50%;border:solid brown;">Purchase Now</button>
             </div>
           </mat-card>
         </div>
@@ -41,18 +41,18 @@
 
       <div class="carousel-item" style="height:100%;">
         <div class="one" style="height:100%;">
-          <mat-card class="example-card insert-remove-container" @myInsertRemoveTrigger *ngIf="isView">
+          <mat-card class="example-card insert-remove-container" @myInsertRemoveTrigger *ngIf="isShown">
             <div style="height:25%;margin-top:1.7em;">
               <p>$540</p>
               <h2>The WW Chair</h2>
             </div>
 
-            <div style="height:30%;margin-top:0.7em;padding-top:0.4em;">
+            <div class="dec" id="pp" style="height:30%;margin-top:0.7em;padding-top:0.4em;">
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
             </div>
 
             <div style="height:20%;margin-top:2em;">
-              <button mat-stroked-button color="warn" style="font-size: 18px;height:100%;width:50%;border:solid brown;">Purchase Now</button>
+              <button mat-stroked-button color="warn" style="font-size:1rem;height:100%;width:50%;border:solid brown;">Purchase Now</button>
             </div>
           </mat-card>
         </div>
@@ -71,33 +71,33 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4 col-sm-4 text-center">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
+					<div class="feature-center insert-remove-container" id="tryin" @myInsertRemoveTrigger *ngIf="isSeen">
 						<span class="icon">
 							<i class="icon-credit-card"></i>
 						</span>
 						<h3>Credit Card</h3>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
-						<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
+						<p><button mat-stroked-button color="warn" style="font-size:1rem;height:100%;width:50%;">Learn More</button></p>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 text-center">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
+					<div class="feature-center animate-box" @sectionTwo *ngIf="isSeen">
 						<span class="icon">
 							<i class="icon-wallet"></i>
 						</span>
 						<h3>Save Money</h3>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
-						<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
+						<p><button mat-stroked-button color="warn" style="font-size:1rem;height:100%;width:50%;">Learn More</button></p>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 text-center">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
+					<div class="feature-center animate-box" @sectionTwo *ngIf="isSeen">
 						<span class="icon">
 							<i class="icon-paper-plane"></i>
 						</span>
 						<h3>Free Delivery</h3>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
-						<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
+						<p><button mat-stroked-button color="warn" style="font-size:1rem;height:100%;width:50%;">Learn More</button></p>
 					</div>
 				</div>
 			</div>
