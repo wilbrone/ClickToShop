@@ -1,0 +1,14 @@
+.example-card {
+    max-width: 400px;
+    /* position: absolute; */
+}
+
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+}
+
+.one {
+    background-image: url('../../../assets/images/img_bg_4.jpg');
+    background-size: cover;
+}
