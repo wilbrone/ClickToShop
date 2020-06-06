@@ -1,6 +1,10 @@
 .example-card {
-    max-width: 400px;
-    /* position: absolute; */
+    width: 40%;
+    height: 55%;
+    position: absolute;
+    top: 27%;
+    left: 9%;
+    justify-content: space-between;
 }
 
 .example-header-image {
@@ -11,4 +15,46 @@
 .one {
     background-image: url('../../../assets/images/img_bg_4.jpg');
     background-size: cover;
+}
+
+mat-grid-tile {
+    background: lightblue;
+    text-align: left !important;
+    display: flex;
+}
+
+mat-grid-tile.mat-figure {
+    justify-content: left;
+}
+
+.example-button-row button {
+    display: table-cell;
+    margin-right: 8px;
+}
+
+.carousel {
+    position: relative;
+    height: 100%;
+    margin-bottom: 0px;
+    margin: 0 auto;
+}
+
+.carousel-indicators {
+    position: absolute;
+    top: 90%;
+}
+
+
+/* .grid {
+    justify-content: space-between;
+} */
+
+@media screen and (max-width: 768px) {
+    .example-card {
+        width: 85%;
+        height: 65%;
+        position: absolute;
+        top: 17%;
+        left: 9%;
+    }
 }
