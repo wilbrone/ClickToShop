@@ -60,17 +60,9 @@ p {
     margin: 0 auto;
 }
 
-
-/* #inns {
-    width: 15px;
-    height: 15px;
-    margin-top: 15%;
-} */
-
-
-/* .grid {
-    justify-content: space-between;
-} */
+.example-form {
+    margin-top: 2em;
+}
 
 @media screen and (max-width: 768px) {
     .example-card {

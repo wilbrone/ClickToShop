@@ -1,0 +1,16 @@
+.toolbar {
+    height: 100%;
+    margin-top: 2.5em;
+}
+
+mat-toolbar {
+    height: inherit;
+    background-color: rgba(236, 134, 86, 0.507);
+    font-size: 3em;
+}
+
+@media screen and (max-width: 768px) {
+    mat-toolbar {
+        font-size: 1em;
+    }
+}
