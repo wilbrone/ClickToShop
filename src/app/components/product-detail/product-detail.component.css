@@ -1,3 +1,15 @@
 section {
     margin-top: 2.5em;
 }
+
+.mat-tab-group {
+    margin-bottom: 48px;
+}
+
+mat-ink-bar.mat-ink-bar {
+    background-color: brown !important;
+}
+
+.price {
+    border: solid;
+}
