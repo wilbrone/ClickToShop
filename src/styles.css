@@ -1966,3 +1966,11 @@ figure {
 .js .animate-box {
     opacity: 0;
 }
+
+
+/* ink bar style */
+
+.mat-tab-group.mat-primary .mat-ink-bar,
+.mat-tab-nav-bar.mat-primary .mat-ink-bar {
+    background: yellow;
+}
