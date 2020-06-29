@@ -43,9 +43,15 @@ ul {
 }
 
 ul li:before {
+    /* content: "\f3fd"; */
+    display: inline-block;
+    margin-left: -36px;
+    width: 36px;
     content: '✓';
 }
 
 ul li {
-    margin: 2em;
+    /* margin: 2em; */
+    line-height: 1;
+    padding: 8px 0 8px 36px;
 }
