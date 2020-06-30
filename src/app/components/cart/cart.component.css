@@ -4,4 +4,37 @@ table {
 
 th {
     background-color: grey;
+    text-align: center;
+}
+
+#head {
+    /* margin-top: 2em; */
+    font-size: 1.3em;
+    font-weight: 350;
+}
+
+table td {
+    padding-top: 2em !important;
+    padding: 1em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table .image {
+    padding: 0.5em !important;
+    width: 15em;
+}
+
+td .digts {
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        padding: .75em;
+    }
 }
