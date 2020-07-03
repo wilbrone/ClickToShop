@@ -38,3 +38,16 @@ td .digts {
         padding: .75em;
     }
 }
+
+#totals {
+    letter-spacing: 0.2em;
+    font-weight: 400;
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+}
+
+mat-chip {
+    width: 100%;
+    height: 2.8em;
+    text-align: center !important;
+}
