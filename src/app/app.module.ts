@@ -16,6 +16,7 @@ import {MatTableModule} from '@angular/material/table';
 import {MatChipsModule} from '@angular/material/chips';
 import {MatBadgeModule} from '@angular/material/badge';
 import {MatIconModule} from '@angular/material/icon';
+import {MatMenuModule} from '@angular/material/menu';
 
 
 import { HomeComponent } from './components/home/home.component';
@@ -23,6 +24,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProductsComponent } from './components/products/products.component';
 import { ProductDetailComponent } from './components/product-detail/product-detail.component';
 import { CartComponent } from './components/cart/cart.component';
+import { CheckoutComponent } from './components/checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,8 @@ import { CartComponent } from './components/cart/cart.component';
     NavbarComponent,
     ProductsComponent,
     ProductDetailComponent,
-    CartComponent
+    CartComponent,
+    CheckoutComponent,
   ],
   imports: [
     BrowserModule,
@@ -48,7 +51,8 @@ import { CartComponent } from './components/cart/cart.component';
     MatTableModule,
     MatChipsModule,
     MatBadgeModule,
-    MatIconModule
+    MatIconModule,
+    MatMenuModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

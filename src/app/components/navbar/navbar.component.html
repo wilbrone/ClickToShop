@@ -2,9 +2,19 @@
   <!-- Navbar content -->
   CLIK2SHOP LOGO
   <span class="example-spacer"></span>
-  <span>PRODUCTS</span>
 
-  <button mat-button color="none" aria-hidden="true" style="vertical-align:middle;">
+  <button mat-button [matMenuTriggerFor]="menu">Products</button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item routerLink="products">Appliances</button>
+    <button mat-menu-item routerLink="products">Electronics</button>
+    <button mat-menu-item routerLink="products">Accessories</button>
+    <button mat-menu-item routerLink="products">Foot Wears</button>
+    <button mat-menu-item routerLink="products">Clothings</button>
+  </mat-menu>
+<!---->
+
+
+  <button mat-button color="none" aria-hidden="true" style="vertical-align:middle;" routerLink="order">
     <mat-icon aria-hidden="false" matBadge="1">shopping_cart</mat-icon>
   </button>
 </nav>
