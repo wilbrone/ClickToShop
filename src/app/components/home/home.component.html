@@ -87,7 +87,7 @@
 						<div id="circle" style="border:solid;margin-bottom:2em;">
               <!-- <span class="material-icons md-light md-36">account_balance_wallet</span> -->
 							<!-- <i class="fa fa-money" aria-hidden="true"></i> -->
-              <img src="../../../assets/icons/wallet.png" alt="wallet" style="margin-top:1.3em;width:65%;">
+              <img src="../../../assets/icons/wallet.png" alt="wallet" style="margin-top:1.3em;width:60%;">
 						</div>
 						<h3>Save Money</h3>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
@@ -98,7 +98,7 @@
 					<div class="feature-center animate-box" @sectionTwo *ngIf="isSeen">
 						<div id="circle" style="border:solid;margin-bottom:2em;">
 							<!-- <i class="fa fa-paper-plane fa-3x" aria-hidden="true" style="margin-top:0.6em;color:white;"></i> -->
-              <img src="../../../assets/icons/delivery-truck.png" alt="truck"  style="margin-top:1.3em;width:65%;">
+              <img src="../../../assets/icons/delivery-truck.png" alt="truck"  style="margin-top:1.3em;width:70%;">
 						</div>
 						<h3>Free Delivery</h3>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
@@ -120,13 +120,14 @@
 				</div>
 			</div>
 			<div class="row">
+      <!---->
 				<div class="col-md-4 text-center animate-box">
 					<div class="product">
 						<div class="product-grid" style="background-image:url(../assets/images/product-1.jpg);">
 							<div class="inner">
 								<p>
 									<a href="single.html" class="icon" style="padding-top:1.5rem;"><span class="material-icons">shopping_cart</span></a>
-									<a href="single.html" class="icon" style="padding-top:1.5rem;"><span class="material-icons">visibility</span></a>
+									<a routerLink="/products-details" class="icon" style="padding-top:1.5rem;"><span class="material-icons">visibility</span></a>
 								</p>
 							</div>
 						</div>
@@ -136,6 +137,7 @@
 						</div>
 					</div>
 				</div>
+       <!---->
 				<div class="col-md-4 text-center animate-box">
 					<div class="product">
 						<div class="product-grid" style="background-image:url(../assets/images/product-2.jpg);">
@@ -234,14 +236,14 @@
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2" style="margin:0 auto;">
 					<form class="example-form row">
-						<div class="col-md-6 col-sm-6">
+						<div class="col-md-6 col-sm-12">
               <mat-form-field appearance="fill" style="width:100%;">
                 <mat-label>Email</mat-label>
                 <input matInput>
               </mat-form-field>
             </div>
-						<div class="col-md-6 col-sm-6" style="text-align:right">
-							<button mat-raised-button color="primary" type="submit">Subscribe</button>
+						<div class="col-md-6 col-sm-12" style="text-align:center;line-height:4em;">
+							<button mat-raised-button color="primary" type="submit" style="width:80%;vertical-align:middle;">Subscribe</button>
 						</div>
 					</form>
 				</div>

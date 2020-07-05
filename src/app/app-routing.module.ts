@@ -9,8 +9,8 @@ import { CartComponent } from './components/cart/cart.component';
 
 const routes: Routes = [
   {path: 'click-2-shop', component: HomeComponent},
-  {path: 'click-2-shop/products', component: ProductsComponent},
-  {path: 'click-2-shop/products/details', component: ProductDetailComponent},
+  {path: 'products', component: ProductsComponent},
+  {path: 'products-details', component: ProductDetailComponent},
   {path: 'click-2-shop/order', component: CartComponent},
 
   {path: '', pathMatch: 'full', redirectTo: 'click-2-shop'}

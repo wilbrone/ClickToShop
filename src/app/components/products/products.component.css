@@ -9,6 +9,10 @@ mat-toolbar {
     font-size: 3em;
 }
 
+#slogan {
+    line-height: 2.5em;
+}
+
 @media screen and (max-width: 768px) {
     mat-toolbar {
         font-size: 1em;
