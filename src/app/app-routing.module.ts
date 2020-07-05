@@ -11,7 +11,7 @@ const routes: Routes = [
   {path: 'click-2-shop', component: HomeComponent},
   {path: 'products', component: ProductsComponent},
   {path: 'products-details', component: ProductDetailComponent},
-  {path: 'click-2-shop/order', component: CartComponent},
+  {path: 'order', component: CartComponent},
 
   {path: '', pathMatch: 'full', redirectTo: 'click-2-shop'}
 ];

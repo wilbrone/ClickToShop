@@ -1,0 +1,9 @@
+mat-icon {
+    font-size: 2.5em;
+    width: fit-content;
+    height: auto;
+}
+
+.example-spacer {
+    flex: 0 0 auto;
+}

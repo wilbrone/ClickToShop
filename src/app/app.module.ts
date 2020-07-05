@@ -14,6 +14,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatTableModule} from '@angular/material/table';
 import {MatChipsModule} from '@angular/material/chips';
+import {MatBadgeModule} from '@angular/material/badge';
+import {MatIconModule} from '@angular/material/icon';
 
 
 import { HomeComponent } from './components/home/home.component';
@@ -44,7 +46,9 @@ import { CartComponent } from './components/cart/cart.component';
     MatToolbarModule,
     MatTabsModule,
     MatTableModule,
-    MatChipsModule
+    MatChipsModule,
+    MatBadgeModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
