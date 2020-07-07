@@ -17,7 +17,7 @@ import {MatChipsModule} from '@angular/material/chips';
 import {MatBadgeModule} from '@angular/material/badge';
 import {MatIconModule} from '@angular/material/icon';
 import {MatMenuModule} from '@angular/material/menu';
-
+import {MatExpansionModule} from '@angular/material/expansion';
 
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -53,6 +53,7 @@ import { CheckoutComponent } from './components/checkout/checkout.component';
     MatBadgeModule,
     MatIconModule,
     MatMenuModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
