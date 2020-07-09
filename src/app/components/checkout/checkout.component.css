@@ -6,6 +6,17 @@
 #contain {
     width: 95%;
     margin: 0 auto;
+    padding-top: 2em;
+}
+
+.delivery {
+    height: 14.7em;
+}
+
+#address {
+    border: solid;
+    margin: auto 0;
+    height: 100%;
 }
 
 label {

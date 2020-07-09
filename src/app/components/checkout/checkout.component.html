@@ -48,23 +48,27 @@
     </div>
     <!--  -->
     <div class="col-md-6 col-sm-12">
-      <mat-card>
-        <h3>Delivery Address</h3>
-
-        <form class="example-form row">
-          <mat-form-field class="example-full-width">
+      <h3 style="font-size:3em;">Delivery Address</h3>
+      <mat-card class="delivery">
+        <form class="example-form row" id="address">
+          <mat-form-field class="example-full-width col-md-5 col-sm-10">
             <mat-label>Full Name</mat-label>
             <input matInput placeholder="" value="">
           </mat-form-field>
 
-          <mat-form-field class="example-full-width">
-            <mat-label>Favorite food</mat-label>
-            <input matInput placeholder="Ex. Pizza" value="Sushi">
+          <mat-form-field class="example-full-width col-md-5 col-sm-10">
+            <mat-label>Address</mat-label>
+            <input matInput placeholder="" value="">
           </mat-form-field>
 
-          <mat-form-field class="example-full-width">
-            <mat-label>Favorite food</mat-label>
-            <input matInput placeholder="Ex. Pizza" value="Sushi">
+          <mat-form-field class="example-full-width col-md-5 col-sm-10">
+            <mat-label>Street/Apartment Name</mat-label>
+            <input matInput placeholder="" value="">
+          </mat-form-field>
+
+          <mat-form-field class="example-full-width col-md-5 col-sm-10">
+            <mat-label>Phone Number</mat-label>
+            <input matInput placeholder="" value="">
           </mat-form-field>
         </form>
       </mat-card>
