@@ -1,11 +1,7 @@
 <section class="payment">
   <div class="row" id="contain">
     <div class="col-md-6 col-sm-12">
-      <legend>
-        <label>
-          <h3>Payment Methods</h3>
-        </label>
-      </legend>
+      <h3 style="font-size:3em;">Payment Methods</h3>
       <!--  -->
       <mat-accordion>
         <mat-expansion-panel hideToggle>
@@ -18,6 +14,7 @@
             </mat-panel-title>
               <img src="../../../assets/images/m-pesa-logo-png.png" width="15%">
           </mat-expansion-panel-header>
+          <hr>
           <p>This is the primary content of the panel.</p>
         </mat-expansion-panel>
         <hr>
@@ -43,6 +40,7 @@
             </mat-panel-title>
             <img src="../../../assets/images/credit-cards-icon-25.png" width="8%" style="margin-right:1em;">
           </mat-expansion-panel-header>
+          <hr>
           <p>This is the primary content of the panel.</p>
         </mat-expansion-panel>
       </mat-accordion>
@@ -50,7 +48,26 @@
     </div>
     <!--  -->
     <div class="col-md-6 col-sm-12">
-      <h3>Delivery Address</h3>
+      <mat-card>
+        <h3>Delivery Address</h3>
+
+        <form class="example-form row">
+          <mat-form-field class="example-full-width">
+            <mat-label>Full Name</mat-label>
+            <input matInput placeholder="" value="">
+          </mat-form-field>
+
+          <mat-form-field class="example-full-width">
+            <mat-label>Favorite food</mat-label>
+            <input matInput placeholder="Ex. Pizza" value="Sushi">
+          </mat-form-field>
+
+          <mat-form-field class="example-full-width">
+            <mat-label>Favorite food</mat-label>
+            <input matInput placeholder="Ex. Pizza" value="Sushi">
+          </mat-form-field>
+        </form>
+      </mat-card>
     </div>
   </div>
 </section>

@@ -24,3 +24,11 @@ mat-expansion-panel {
 mat-panel-title {
     width: 50%;
 }
+
+.example-form {
+    width: 100%;
+}
+
+.example-full-width {
+    width: 40%;
+}
