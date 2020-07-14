@@ -1,5 +1,5 @@
 .payment {
-    height: 100%;
+    height: fit-content;
     margin-top: 4em;
 }
 
@@ -18,7 +18,9 @@
 }
 
 .delivery {
-    height: 14.7em;
+    height: 20em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 #address {
@@ -49,5 +51,10 @@ mat-panel-title {
 }
 
 .example-full-width {
-    width: 40%;
+    width: 45%;
+    height: 40%;
+}
+
+.payments {
+    margin: 2em 0;
 }
