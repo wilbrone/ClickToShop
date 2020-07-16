@@ -38,7 +38,50 @@
     <mat-step [stepControl]="secondFormGroup" [editable]="isEditable">
       <form [formGroup]="secondFormGroup">
         <ng-template matStepLabel>Payment Method</ng-template>
-
+        <div>
+            <h4>Order</h4>
+            <span style="font-style:italic;">Order Number:</span>&nbsp;<span>123243437F</span>
+            <table class="table" style="width:85%;">
+              <thead>
+                <tr>
+                  <th>Item</th>
+                  <th>Quantity</th>
+                  <th>Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Hauteville Rocking Chair</td>
+                  <td>2</td>
+                  <td>
+                  <span>$60.0</span>
+                  <br>
+                  <span style="font-weight: 500;margin-top:1em;">$120.0</span>
+                  </td>
+                </tr>
+              <tbody>
+            </table>
+        </div>
+        <div class="row">
+          <div class="col-md-5 col-sm-6" style="border:solid;">
+            <span>Delivery Address</span>
+            <br>
+            <span>Customer Name:</span>
+            <br>
+            <span>Address:</span>
+            <br>
+            <span>Street/Apartment:</span>
+            <br>
+            <span>Phone Number:</span>
+          </div>
+          <div class="col-md-5 col-sm-6" style="border:solid;text-align:right;">
+            <span>Purchase Cost:</span>
+            <br>
+            <span>Purchase Cost:</span>
+            <br>
+            <span style="margin-top:10em;border:solid;">TOTAL COST:</span>
+          </div>
+        </div>
         <!--  -->
         <div class="col-md-7 payments">
           <mat-accordion>
